@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Formulários</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <form id="form1" name="form1" method="POST" class="form-horizontal">
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Nome</label>
+                    <div class="col-md-10">
+                        <input type="text" name="nome" placeholder="Escreva seu nome" class="form-control"/>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="control-label col-md-2">Email</label>
+                    <div class="col-md-10">
+                        <input type="text" name="email" placeholder="Escreva seu email" class="form-control"/>
+                    </div>
+                </div>                
+
+                <div class="form-group">
+                    <div class="col-md-2 col-md-offset-2">
+                        <label class="control-label">
+                            <input type="checkbox">Gravar Nome
+                        </label>                           
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="col-md-2 col-md-offset-2">
+                        <button class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <script src="../js/jquery/jquery.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
+    </body>
+
+</html>
